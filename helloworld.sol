@@ -6,11 +6,11 @@
  * Author : @mobinranjbar
  *
  */
-pragma solidity ^0.4.0;
-contract HelloWorld {
-    uint balance;
+pragma solidity ^0.4.0; // تعریف نسخه پشتیبانی شده کامپایلر Solidity
+contract HelloWorld { // نام قرارداد هوشمند
+    uint balance; // متغیر نمونه از نوع صحیح مثبت
     
-    function HelloWorld() public{
-        balance=100;
+    function HelloWorld() public{ // تابع سازنده
+        balance=100; // مقدار دهی اولیه متغیر
     }
 }
